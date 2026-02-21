@@ -1,4 +1,6 @@
-namespace HFA.Messaging.Contracts
+using HFA.Messaging.Enum;
+
+namespace HFA.Messaging
 {
     public sealed record EmailMessage(
         Guid MessageId,
